@@ -1,0 +1,93 @@
+.my {
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #fafafa;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.my .my_top {
+  padding: 40rpx 32rpx;
+  background: #fff;
+  height: 256rpx;
+  position: relative;
+}
+.my .my_top .my_avatar_img {
+  width: 80rpx;
+  height: 80rpx;
+  display: inline-block;
+}
+.my .my_top .my_info {
+  display: inline-block;
+  margin-left: 16rpx;
+}
+.my .my_top .my_info .my_info_name {
+  font-size: 30rpx;
+  line-height: 36rpx;
+  margin-bottom: 20rpx;
+}
+.my .my_top .my_info .my_sex {
+  display: inline-block;
+  width: 40rpx;
+  height: 28rpx;
+  background: #F2F2F2;
+  padding: 5rpx 12rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.my .my_top .my_info .my_info_item {
+  display: inline-block;
+  line-height: 28rpx;
+  font-size: 24rpx;
+  background: #F2F2F2;
+  border-radius: 4rpx;
+  color: #7B7B7B;
+  margin-right: 12rpx;
+  padding: 0 16rpx;
+}
+.my .my_top .my_top_good {
+  padding-left: 130rpx;
+  font-size: 24rpx;
+}
+.my .my_top .my_top_good .my_top_good_num {
+  color: #181818;
+  position: absolute;
+  top: 160rpx;
+  left: 150rpx;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+.my .my_top .my_top_good .my_top_good_text {
+  position: absolute;
+  left: 128rpx;
+  top: 194rpx;
+  color: #ACACAC;
+}
+.my .my_bottom {
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-top: 20rpx;
+  background: #fff;
+}
+.my .flex-wrp {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.my .flex-wrp-column {
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.my .flex-wrp-row {
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 20rpx;
+}
